@@ -1,0 +1,989 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Multipurpose Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://ico-tailwindcss.netlify.app/assets/img/core-img/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="https://ico-tailwindcss.netlify.app/assets/css/animate.css">
+    <link rel="stylesheet" href="https://ico-tailwindcss.netlify.app/assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- Tailwind Stylesheet -->
+    <!--<link rel="stylesheet" href="assets/css/tailwindcss.css"> -->
+
+</head>
+
+<body class="darker">
+    <!-- Preloader -->
+   
+
+    <!-- ##### Header Area Start ##### -->
+    <nav class="relative px-4 py-4 flex justify-between items-center">
+<a class="text-3xl font-bold leading-none" href="#">
+<img draggable="false" src="assets/img/core-img/logo.png" alt="logo">
+</a>
+<div class="lg:hidden">
+<button class="navbar-burger flex items-center text-blue-600 p-3">
+<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<title>Mobile menu</title>
+<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+</svg>
+</button>
+</div>
+<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+<li><a class="text-sm text-white hover:text-gray-200" href="index.html">Home</a></li>
+<li class="text-gray-300">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+</svg>
+</li>
+<li><a class="text-sm text-blue-600 font-bold" href="#about">About Us</a></li>
+<li class="text-gray-300">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+</svg>
+</li>
+<li><a class="text-sm text-white hover:text-gray-200" href="#services">Services</a></li>
+<li class="text-gray-300">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+</svg>
+</li>
+<li><a class="text-sm text-white hover:text-gray-200" href="#roadmap">Roadmap</a></li>
+<li class="text-gray-300">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+</svg>
+</li>
+<li><a class="text-sm text-white hover:text-gray-200" href="#contact">Contact</a></li>
+</ul>
+<a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="#">Sign In</a>
+<a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Sign up</a>
+</nav>
+   
+<div class="navbar-menu relative z-50 hidden">
+<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+<div class="flex items-center mb-8">
+<a class="mr-auto text-3xl font-bold leading-none" href="#">
+<img draggable="false" src="assets/img/core-img/logo.png" alt="logo">
+</a>
+<button class="navbar-close">
+<svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+</svg>
+</button>
+</div>
+<div>
+<ul>
+<li class="mb-1">
+<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="index.html">Home</a>
+</li>
+<li class="mb-1">
+<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#about">About Us</a>
+</li>
+<li class="mb-1">
+<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#services">Services</a>
+</li>
+<li class="mb-1">
+<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#roadmap">Roadmap</a>
+</li>
+<li class="mb-1">
+<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">Contact</a>
+</li>
+</ul>
+</div>
+<div class="mt-auto">
+<div class="pt-6">
+<a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl" href="#">Sign in</a>
+<a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Sign Up</a>
+</div>
+<p class="my-4 text-xs text-center text-gray-400">
+<span>Copyright © 2021</span>
+</p>
+</div>
+</nav>
+
+    </div>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Welcome Area Start ##### -->
+    <section class="hero-section moving v2 section-padding" id="home">
+        <!-- Hero Content -->
+        <div class="hero-section-content">
+           
+            <div class="container mx-auto sm:px-4 ">
+                <div class="flex flex-wrap  items-center">
+                    <!-- Welcome Content -->
+                    <div class="w-full lg:w-1/2 pr-4 pl-4 md:w-full pr-4 pl-4">
+                        <div class="welcome-content">
+                            <div class="promo-section">
+                                <h3 class="special-head dark">Creative landing page template</h3>
+                            </div>
+                            <h1 class="fadeInUp" data-wow-delay="0.2s">Decenteralized ICO and Crypto Trading Platform </h1>
+                            <p class="w-text fadeInUp" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet.</p>
+                            <div class="dream-btn-group fadeInUp" data-wow-delay="0.4s">
+                                <a href="#" class="more-btn mr-3">Whitepaper</a>
+                                <a href="#" class="more-btn mt-xx-15">Buy Token</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 pr-4 pl-4">
+                        <div class="illusto-2 fadeInUp" data-wow-delay="0.5s">
+                            <img draggable="false" src="assets/img/core-img/about-3.png" alt="">
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Welcome Area End ##### -->
+
+    <section class="features section-padding-100-70 ">
+
+        <div class="container mx-auto sm:px-4">
+            <div class="section-heading text-center">
+                <!-- Dream Dots -->
+                <div class="dream-dots justify-center fadeInUp" data-wow-delay="0.2s">
+                     <span>Token Prices</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">Our Token Prices</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+            </div>
+            <div class="flex flex-wrap  items-center">
+                <div class="lg:w-1/4 pr-4 pl-4 md:w-1/2 pr-4 pl-4 w-full pr-4 pl-4">
+                    <div class="pricing-item ">
+                        <h4>Round 1</h4>
+                        <h3><strong class="xzc-1-month">0.96$</strong></h3>
+                        <span>1 ETH = 500 Token</span>
+                        <div class="pricing">15,000,000 Token</div>
+                        <label><strong>42% bonus</strong></label>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 pr-4 pl-4 md:w-1/2 pr-4 pl-4 w-full pr-4 pl-4">
+                    <div class="pricing-item ">
+                        <h4>Round 2</h4>
+                        <h3><strong class="xzc-1-month">1.25$</strong></h3>
+                        <span>1 ETH = 500 Token</span>
+                        <div class="pricing">15,000,000 Token</div>
+                        <label><strong>35% bonus</strong></label>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 pr-4 pl-4 md:w-1/2 pr-4 pl-4 w-full pr-4 pl-4">
+                    <div class="pricing-item ">
+                        <h4>Round 3</h4>
+                        <h3><strong class="xzc-1-month">1.50$</strong></h3>
+                        <span>1 ETH = 500 Token</span>
+                        <div class="pricing">15,000,000 Token</div>
+                        <label><strong>25% bonus</strong></label>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 pr-4 pl-4 md:w-1/2 pr-4 pl-4 w-full pr-4 pl-4">
+                    <div class="pricing-item ">
+                        <h4>Round 4</h4>
+                        <h3><strong class="xzc-1-month">1.96$</strong></h3>
+                        <span>1 ETH = 500 Token</span>
+                        <div class="pricing">15,000,000 Token</div>
+                        <label><strong>15% bonus</strong></label>
+                    </div>
+                </div>
+               
+               
+            </div>
+        </div>
+    </section>
+    
+    <!-- ##### About Us Area Start ##### -->
+    <section class="about-us-area section-padding-0-100 clearfix">
+       
+        <div class="container mx-auto sm:px-4">
+            <div class="flex flex-wrap  items-center">
+
+                <div class="w-full lg:w-1/2 pr-4 pl-4 offset-lg-0">
+                    <div class="who-we-contant">
+                        <div class="dream-dots text-left fadeInUp" data-wow-delay="0.2s">
+                            <span class="gradient-text ">Decentralized Trading Platform</span>
+                        </div>
+                        <h4 class="fadeInUp" data-wow-delay="0.3s">Connect blockchain to the real world and start crypto tading.</h4>
+                        <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.</p>
+                        <p class="fadeInUp" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.</p>
+                        <a class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline more-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="#">Read More</a>
+                    </div>
+                </div>
+
+                <img draggable="false" class="supportImg" src="assets/img/svg/trading-strokes.svg" alt="image">
+                <div class="w-full lg:w-1/2 pr-4 pl-4 offset-lg-0 md:w-full pr-4 pl-4 mt-30 no-padding-left">
+                    <div class="welcome-meter floating-anim fadeInUp" data-wow-delay="0.7s">
+                        <img draggable="false" src="assets/img/core-img/computer.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### About Us Area End ##### -->
+
+    <!-- ##### Our Services Area Start ##### -->
+    <section class="our_services_area section-padding-0-70 clearfix" id="services">
+        <div class="container mx-auto sm:px-4">
+           
+            <div class="section-heading text-center">
+                <!-- Dream Dots -->
+                <div class="dream-dots justify-center fadeInUp" data-wow-delay="0.2s">
+                    <span>Why choose us</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">Our Main Features</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+            </div>
+               
+
+            <div class="flex flex-wrap ">
+                <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <!-- Content -->
+                    <div class="service_single_content text-left px-4 py-6 mb-30" data-wow-delay="0.2s">
+                        <!-- Icon -->
+                        <div class="service_icon">
+                            <img draggable="false" src="assets/img/features/feature-1.svg" alt="">
+                        </div>
+                        <h6>Instant settlement</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <!-- Content -->
+                    <div class="service_single_content text-left px-4 py-6 mb-30" data-wow-delay="0.3s">
+                        <!-- Icon -->
+                        <div class="service_icon">
+                            <img draggable="false" src="assets/img/features/feature-2.svg" alt="">
+                        </div>
+                        <h6>Flexibility</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <!-- Content -->
+                    <div class="service_single_content text-left px-4 py-6 mb-30" data-wow-delay="0.4s">
+                        <!-- Icon -->
+                        <div class="service_icon">
+                            <img draggable="false" src="assets/img/features/feature-3.svg" alt="">
+                        </div>
+                        <h6>Blockchain technology</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <!-- Content -->
+                    <div class="service_single_content text-left px-4 py-6 mb-30" data-wow-delay="0.5s">
+                        <!-- Icon -->
+                        <div class="service_icon">
+                            <img draggable="false" src="assets/img/features/feature-4.svg" alt="">
+                        </div>
+                        <h6>Experienced team</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <!-- Content -->
+                    <div class="service_single_content text-left px-4 py-6 mb-30" data-wow-delay="0.6s">
+                        <!-- Icon -->
+                        <div class="service_icon">
+                            <img draggable="false" src="assets/img/features/feature-5.svg" alt="">
+                        </div>
+                        <h6>Connect free</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <!-- Content -->
+                    <div class="service_single_content text-left px-4 py-6 mb-30" data-wow-delay="0.7s">
+                        <!-- Icon -->
+                        <div class="service_icon">
+                            <img draggable="false" src="assets/img/features/feature-6.svg" alt="">
+                        </div>
+                        <h6>AI matching</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <!-- Content -->
+                    <div class="service_single_content text-left px-4 py-6 mb-30" data-wow-delay="0.7s">
+                        <!-- Icon -->
+                        <div class="service_icon">
+                            <img draggable="false" src="assets/img/features/feature-7.svg" alt="">
+                        </div>
+                        <h6>Low cost</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <!-- Content -->
+                    <div class="service_single_content text-left px-4 py-6 mb-30" data-wow-delay="0.7s">
+                        <!-- Icon -->
+                        <div class="service_icon">
+                            <img draggable="false" src="assets/img/features/feature-8.svg" alt="">
+                        </div>
+                        <h6>Digital personas</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="features section-padding-0-100 ">
+
+        <div class="container mx-auto sm:px-4">
+            <div class="section-heading text-center">
+                <!-- Dream Dots -->
+                <div class="dream-dots justify-center fadeInUp" data-wow-delay="0.2s">
+                     <span>Try our Platform</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">Our Trading Platform</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+            </div>
+            <div class="flex flex-wrap  items-center">
+
+                <div class="service-img-wrapper lg:w-2/5 pr-4 pl-4 md:w-full pr-4 pl-4 sm:w-full pr-4 pl-4 no-padding-right">
+                    <div class="features-list">
+                        <div class="who-we-contant">
+                       
+                            <h4 class="w-text fadeInUp" data-wow-delay="0.3s">Powerful platform.</h4>
+                            <p class="w-text fadeInUp" data-wow-delay="0.4s">We are dedicated to providing professional service with the highest degree of honesty and integrity, and strive to add value to our tax and consulting services.</p>
+                        </div>
+                        <ul class="list-marked">
+                            <li class="text-white"><i class="fa fa-check"></i>Competent Professionals</li>
+                            <li class="text-white"><i class="fa fa-check"></i>Affordable Prices</li>
+                            <li class="text-white"><i class="fa fa-check"></i>High Successful Recovery</li>
+                            <li class="text-white"><i class="fa fa-check"></i>Creative Layout</li>
+                        </ul>
+                        <a class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline more-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="service-img-wrapper lg:w-3/5 pr-4 pl-4 md:w-full pr-4 pl-4 sm:w-full pr-4 pl-4 mt-s">
+                    <div class="image-box">
+                        <img draggable="false" src="assets/img/core-img/platform.png" class="center-block img-responsive phone-img" alt="">
+                        <img draggable="false" src="assets/img/core-img/rings.png" class="center-block img-responsive rings " alt="">
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ##### Our Trial Area End ##### -->
+    <section class="spread-map download">
+        <div class="container mx-auto sm:px-4">
+            <div class="flex flex-wrap  items-center">
+
+                <div class="lg:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
+                    <div class="welcome-meter fadeInUp" data-wow-delay="0.7s">
+                        <img draggable="false" src="assets/img/core-img/whitepaper.png" class="center-block" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4 mt-s">
+                    <div class="who-we-contant">
+                        <div class="dream-dots text-left fadeInUp" data-wow-delay="0.2s">
+                            <img draggable="false" src="assets/img/svg/section-icon-11.svg" alt="">
+                        </div>
+                        <h4 class="text-white fadeInUp" data-wow-delay="0.3s">Downoad Our Whitepaper</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore qui iste asperiores harum maiores praesentium facere ullam blanditiis, odio dolorum. Officia quisquam eaque suscipit facere ducimus, sit quaerat. Numquam, corrupti?</p>
+                        <a class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline dream-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="#">
+                            Get Whitepaper
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="token-distribution section-padding-100-85">
+        <div class="container mx-auto sm:px-4">
+           
+            <div class="section-heading text-center">
+                <!-- Dream Dots -->
+                <div class="dream-dots justify-center fadeInUp" data-wow-delay="0.2s">
+                    <span>ICO Distribution</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">Our ICO Distribution</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+            </div>
+
+            <div class="flex flex-wrap  items-center">
+                <div class="lg:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
+                    <div class=" ">
+                        <h2 class="text-center text-2xl mb-30 fadeInUp" data-wow-delay="0.3s">Funds Allocation</h2>
+                        <img draggable="false" src="assets/img/core-img/distribution.png" class="center-block" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4 mt-s">
+                    <h2 class="text-center text-2xl mb-30 fadeInUp" data-wow-delay="0.3s">Token Distribution</h2>
+                    <div class="flex flex-wrap ">
+                        <div class="w-full sm:w-1/3 pr-4 pl-4">
+                            <div class="">
+                                <img draggable="false" src="assets/img/core-img/graph-11.png" class="center-block m-auto" alt="">
+                            </div>
+                        </div>
+                        <div class="sm:w-2/3 pr-4 pl-4">
+                            <div class="token-info mt-x">
+                                <div class="info-wrapper one">
+                                    <div class="token-icon">12</div>
+                                    <div class="token-descr">Overhead Token Distribution</div>
+                                </div>
+                            </div>
+                            <div class="token-info">
+                                <div class="info-wrapper two">
+                                    <div class="token-icon">23</div>
+                                    <div class="token-descr">Supporting Blockchain </div>
+                                </div>
+                            </div>
+                           
+                            <div class="token-info">
+                                <div class="info-wrapper four">
+                                    <div class="token-icon">08</div>
+                                    <div class="token-descr">Engineers and R&D</div>
+                                </div>
+                            </div>
+                            <div class="token-info">
+                                <div class="info-wrapper five">
+                                    <div class="token-icon">07</div>
+                                    <div class="token-descr"> Paltform Operations</div>
+                                </div>
+                            </div>
+                            <div class="token-info">
+                                <div class="info-wrapper three">
+                                    <div class="token-icon">05</div>
+                                    <div class="token-descr">Network Growth Marketing</div>
+                                </div>
+                            </div>
+                            <div class="token-info">
+                                <div class="info-wrapper six">
+                                    <div class="token-icon">08</div>
+                                    <div class="token-descr">Oracle Network Developers</div>
+                                </div>
+                            </div>
+                            <div class="token-info">
+                                <div class="info-wrapper seven">
+                                    <div class="token-icon">05</div>
+                                    <div class="token-descr">Engineers and R&D</div>
+                                </div>
+                            </div>
+                            <div class="token-info">
+                                <div class="info-wrapper eight">
+                                    <div class="token-icon">27</div>
+                                    <div class="token-descr"> Paltform Operations</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="roadmap section-padding-0-0" id="roadmap">
+        <div class="section-heading text-center">
+            <!-- Dream Dots -->
+            <div class="dream-dots justify-center fadeInUp" data-wow-delay="0.2s">
+                <span>ICO Roadmap</span>
+            </div>
+            <h2 class="fadeInUp" data-wow-delay="0.3s">Our ICO Roadmap</h2>
+            <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+        </div>
+        <div class="container mx-auto sm:px-4">
+            <div class="flex flex-wrap ">
+                <div class="md:w-full pr-4 pl-4">
+                    <div class="main-timeline">
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer"> <span class="date"> <span class="month">22 Sept</span> <span class="year">2022</span> </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 class="title">Listing to the major exchanges</h5>
+                                <p class="description text-light-gray"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer"> <span class="date"> <span class="month">27 Nov</span> <span class="year">2022</span> </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 class="title">integration to marketplaces</h5>
+                                <p class="description text-light-gray"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer"> <span class="date"> <span class="month">19 Dec</span> <span class="year">2022</span> </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 class="title">Crypto Wallet version release</h5>
+                                <p class="description text-light-gray"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer"> <span class="date"> <span class="month">25 Jan</span> <span class="year">2022</span> </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 class="title">Platform ealier development</h5>
+                                <p class="description text-light-gray"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ##### Token Info Start ##### -->
+    <div class="features2 section-padding-100-70">
+        <div class="container mx-auto sm:px-4">
+          
+            <div class="flex flex-wrap  items-center">
+               
+                <div class="w-full lg:w-1/3 pr-4 pl-4 offset-lg-0 md:w-2/3 pr-4 pl-4 md:mx-1/5 sm:w-4/5 pr-4 pl-4 sm:mx-1/6">
+                    <div class="ico-counter dotted-bg mb-30">
+                        <div class="counter-down">
+
+                            <div class="content">
+                                <div class="conuter-header">
+                                    <h3 class="w-text text-center">TOKEN SALE ENDS IN</h3>
+                                </div>
+                                <div class="counterdown-content">
+                                   
+                                    <!-- Countdown  -->
+                                    <div class="count-down titled circled text-center">
+                                        <div class="simple_timer syotimer timer"><div class="timer-head-block"></div><div class="timer-body-block"><div class="table-cell day"><div class="tab-val">945</div><div class="tab-metr tab-unit">days</div></div><div class="table-cell hour"><div class="tab-val">03</div><div class="tab-metr tab-unit">hours</div></div><div class="table-cell minute"><div class="tab-val">21</div><div class="tab-metr tab-unit">minutes</div></div><div class="table-cell second"><div class="tab-val" style="opacity: 1;">28</div><div class="tab-metr tab-unit">seconds</div></div></div><div class="timer-foot-block"></div></div>
+                                    </div>
+                                    <div class="ico-progress">
+                                       <ul class="list-unstyled list-inline clearfix mb-10">
+                                          <li class="title">33m</li>
+                                          <li class="strength">75m</li>
+                                       </ul>
+                                       <!-- skill strength -->
+                                       <div class="current-progress">
+                                          <div class="progress-bar has-gradient" style="width: 75%"></div>
+                                       </div>
+                                       <span class="pull-left">Softcap in 103 days</span>
+                                       <span class="pull-right">Token Hardcap</span>
+                                    </div>
+                                    <div class="text-center">
+                                        <a class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline dream-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="#">Buy More tokens</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="lg:w-1/3 pr-4 pl-4 sm:w-full pr-4 pl-4 mt-md-30">
+                    <div class="services-block-four v2">
+                        <div class="inner-box">
+                            <div class="icon-img-box">
+                                <img draggable="false" src="assets/img/features/f1.svg" alt="">
+                            </div>
+                            <h3><a href="#">Delivery Reports</a></h3>
+                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur ipsum dolor sit amet, conse.</div>
+                        </div>
+                    </div>
+                    <div class="services-block-four v2">
+                        <div class="inner-box">
+                            <div class="icon-img-box">
+                                <img draggable="false" src="assets/img/features/f2.svg" alt="">
+                            </div>
+                            <h3><a href="#">Branded Sender</a></h3>
+                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur ipsum dolor sit amet, conse.</div>
+                        </div>
+                    </div>
+                    <div class="services-block-four v2">
+                        <div class="inner-box">
+                            <div class="icon-img-box">
+                                <img draggable="false" src="assets/img/features/f3.svg" alt="">
+                            </div>
+                            <h3><a href="#">SMS Messaging</a></h3>
+                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur ipsum dolor sit amet, conse.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 pr-4 pl-4 sm:w-full pr-4 pl-4 mt-md-30 mt-smy-0">
+                    <div class="services-block-four v2">
+                        <div class="inner-box">
+                            <div class="icon-img-box">
+                                <img draggable="false" src="assets/img/features/f4.svg" alt="">
+                            </div>
+                            <h3><a href="#">Marketing Plans</a></h3>
+                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur ipsum dolor sit amet, conse.</div>
+                        </div>
+                    </div>
+                    <div class="services-block-four v2">
+                        <div class="inner-box">
+                            <div class="icon-img-box">
+                                <img draggable="false" src="assets/img/features/f5.svg" alt="">
+                            </div>
+                            <h3><a href="#">Seed Routing</a></h3>
+                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur ipsum dolor sit amet, conse.</div>
+                        </div>
+                    </div>
+                    <div class="services-block-four v2">
+                        <div class="inner-box">
+                            <div class="icon-img-box">
+                                <img draggable="false" src="assets/img/features/f6.svg" alt="">
+                            </div>
+                            <h3><a href="#">Traking API</a></h3>
+                            <div class="text">Lorem ipsum dolor sit amet, conse ctetur ipsum dolor sit amet, conse.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+   
+    <!-- ##### FAQ & Timeline Area Start ##### -->
+    <div class="faq-timeline-area section-padding-0-85" id="faq">
+        <div class="container mx-auto sm:px-4">
+        <div class="section-heading text-center">
+            <!-- Dream Dots -->
+            <div class="dream-dots justify-center fadeInUp" data-wow-delay="0.2s">
+                <span>Token FAQ</span>
+            </div>
+            <h2 class="fadeInUp" data-wow-delay="0.3s">  Frequently Questions</h2>
+            <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+        </div>
+            <div class="flex flex-wrap  items-center">
+                <div class="w-full lg:w-1/2 pr-4 pl-4 offset-lg-0 md:w-2/3 pr-4 pl-4 md:mx-1/5 sm:w-full pr-4 pl-4">
+                    <img draggable="false" src="assets/img/svg/faq.svg" alt="" class="mx-auto">
+                </div>
+                <div class="w-full lg:w-1/2 pr-4 pl-4 md:w-full pr-4 pl-4">
+                    <div class="dream-faq-area mt-s ">
+                        <dl style="margin-bottom:0">
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.2s">What are the objectives of this Token?</dt>
+                            <dd class="fadeInUp" data-wow-delay="0.3s">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?</p>
+                            </dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.3s">What is the best features and services we deiver?</dt>
+                            <dd style="display: none;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?</p>
+                            </dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.4s">Why this ICO important to me?</dt>
+                            <dd style="display: none;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?</p>
+                            </dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.5s">how may I take part in and purchase this Token?</dt>
+                            <dd style="display: none;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- ##### FAQ & Timeline Area End ##### -->
+
+   
+    <!-- ##### Team Area Start ##### -->
+    <section class="our_team_area section-padding-100-0 clearfix" id="team">
+        <div class="container mx-auto sm:px-4">
+            <div class="flex flex-wrap ">
+                <div class="w-full">
+                    <div class="section-heading text-center">
+                        <!-- Dream Dots -->
+                        <div class="dream-dots justify-center fadeInUp" data-wow-delay="0.2s">
+                            <span>Our Team</span>
+                        </div>
+                        <h2 class="fadeInUp" data-wow-delay="0.3s">Awesome Team</h2>
+                        <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap ">
+                <!-- Single Team Member -->
+                <div class="w-full sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <div class="single-team-member fadeInUp" data-wow-delay="0.2s">
+                        <!-- Image -->
+                        <div class="team-member-thumb">
+                            <img draggable="false" src="assets/img/team-img/1.png" class="center-block" alt="">
+                        </div>
+                        <!-- Team Info -->
+                        <div class="team-info">
+                            <h5 class="w-text">Joman Helal</h5>
+                            <p class="g-text">Executive Officer</p>
+                        </div>
+                        <!-- Social Icon -->
+                        <div class="team-social-icon">
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Team Member -->
+                <div class="w-full sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <div class="single-team-member fadeInUp" data-wow-delay="0.3s">
+                        <!-- Image -->
+                        <div class="team-member-thumb">
+                            <img draggable="false" src="assets/img/team-img/2.png" class="center-block" alt="">
+                        </div>
+                        <!-- Team Info -->
+                        <div class="team-info">
+                            <h5 class="w-text">Slans Alons</h5>
+                            <p class="g-text">Business Development</p>
+                        </div>
+                        <!-- Social Icon -->
+                        <div class="team-social-icon">
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Team Member -->
+                <div class="w-full sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <div class="single-team-member fadeInUp" data-wow-delay="0.4s">
+                        <!-- Image -->
+                        <div class="team-member-thumb">
+                            <img draggable="false" src="assets/img/team-img/3.png" class="center-block" alt="">
+                        </div>
+                        <!-- Team Info -->
+                        <div class="team-info">
+                            <h5 class="w-text">Josha Michal</h5>
+                            <p class="g-text">UX/UI Designer</p>
+                        </div>
+                        <!-- Social Icon -->
+                        <div class="team-social-icon">
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Team Member -->
+                <div class="w-full sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4">
+                    <div class="single-team-member fadeInUp" data-wow-delay="0.5s">
+                        <!-- Image -->
+                        <div class="team-member-thumb">
+                            <img draggable="false" src="assets/img/team-img/4.png" class="center-block" alt="">
+                        </div>
+                        <!-- Team Info -->
+                        <div class="team-info">
+                            <h5 class="w-text">Johan Wright</h5>
+                            <p class="g-text">Head of Marketing</p>
+                        </div>
+                        <!-- Icon -->
+                        <div class="team-social-icon">
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### Team Area End ##### -->
+
+    <section class="container mx-auto sm:px-4">
+        <div class="subscribe section-padding-0-100">
+            <div class="flex flex-wrap ">
+                <div class="sm:w-full pr-4 pl-4">
+                    <div class="subscribe-wrapper">
+                        <div class="section-heading text-center">
+                            <h2 class="wow fadeInUp" data-wow-delay="0.3s">Don’t Miss ICO News And Updates!</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                        </div>
+                        <div class="service-text text-center">
+                           
+                            <div class="subscribe-section has-shadow">
+                                <div class="input-wrapper">
+                                    <i class="fa fa-home"></i>
+                                    <input type="email" placeholder="Enter your Email">
+                                </div>
+                                <button class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline more-btn mt-x-15">Subscribe</button>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div> 
+    </section>
+
+   
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area bg-img" style="background-image: url(assets/img/core-img/pattern.png);">
+        <!-- ##### Contact Area Start ##### -->
+        <div class="contact_us_area section-padding-0-0" id="contact">
+            <div class="container mx-auto sm:px-4">
+                <div class="flex flex-wrap ">
+                    <div class="w-full">
+                        <div class="section-heading text-center">
+                            <!-- Dream Dots -->
+                            <div class="dream-dots justify-center fadeInUp" data-wow-delay="0.2s">
+                                <span class="gradient-text">Contact us</span>
+                            </div>
+                            <h2 class="fadeInUp" data-wow-delay="0.3s">Contact With Us</h2>
+                            <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="flex flex-wrap  justify-center">
+                    <div class="w-full md:w-4/5 pr-4 pl-4 lg:w-2/3 pr-4 pl-4">
+                        <div class="contact_form">
+                            <form action="#" method="post" id="main_contact_form" novalidate="">
+                                <div class="flex flex-wrap ">
+                                    <div class="w-full">
+                                        <div id="success_fail_info"></div>
+                                    </div>
+
+                                    <div class="w-full md:w-1/2 pr-4 pl-4">
+                                        <div class="group fadeInUp" data-wow-delay="0.2s">
+                                            <input type="text" name="name" id="name" required="">
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="w-full md:w-1/2 pr-4 pl-4">
+                                        <div class="group fadeInUp" data-wow-delay="0.3s">
+                                            <input type="text" name="email" id="email" required="">
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="group fadeInUp" data-wow-delay="0.4s">
+                                            <input type="text" name="subject" id="subject" required="">
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="group fadeInUp" data-wow-delay="0.5s">
+                                            <textarea name="message" id="message" required=""></textarea>
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="w-full text-center fadeInUp" data-wow-delay="0.6s">
+                                        <button type="submit" class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline more-btn">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ##### Contact Area End ##### -->
+
+        <div class="footer-content-area ">
+            <div class="container mx-auto sm:px-4">
+                <div class="flex flex-wrap  ">
+                    <div class="w-full lg:w-1/3 pr-4 pl-4 md:w-1/2 pr-4 pl-4">
+                        <div class="footer-copywrite-info">
+                            <!-- Copywrite -->
+                            <div class="copywrite_text fadeInUp" data-wow-delay="0.2s">
+                                <div class="footer-logo">
+                                    <a href="#"><img draggable="false" src="assets/img/core-img/logo.png" alt="logo"> Tokyland </a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p>
+                            </div>
+                            <!-- Social Icon -->
+                            <div class="footer-social-info fadeInUp" data-wow-delay="0.4s">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full lg:w-1/5 pr-4 pl-4 md:w-1/2 pr-4 pl-4">
+                        <div class="contact_info_area sm:flex justify-between">
+                            <!-- Content Info -->
+                            <div class="contact_info mt-x text-center fadeInUp" data-wow-delay="0.3s">
+                                <h5>PRIVACY & TOS</h5>
+                                <a href=""><p>Advertiser Agreement</p></a>
+                                <a href=""><p>Acceptable Use Policy</p></a>
+                                <a href=""><p>Privacy Policy</p></a>
+                                <a href=""><p>Technology Privacy</p></a>
+                                <a href=""><p>Developer Agreement</p></a>
+                            </div>
+                        </div>
+                    </div>
+                     
+                    <div class="w-full lg:w-1/5 pr-4 pl-4 md:w-1/2 pr-4 pl-4 ">
+                        <!-- Content Info -->
+                        <div class="contact_info_area sm:flex justify-between">
+                            <div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.2s">
+                                <h5>NAVIGATE</h5>
+                                <a href=""><p>Advertisers</p></a>
+                                <a href=""><p>Developers</p></a>
+                                <a href=""><p>Resources</p></a>
+                                <a href=""><p>Company</p></a>
+                                <a href=""><p>Connect</p></a>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                    <div class="w-full lg:w-1/4 pr-4 pl-4 md:w-1/2 pr-4 pl-4 ">
+                        <div class="contact_info_area sm:flex justify-between">
+                            <!-- Content Info -->
+                            <div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.4s">
+                                <h5>CONTACT US</h5>
+                                <p>Mailing Address:xx00 E. Union Ave</p>
+                                <p>Suite 1100. Denver, CO 80237</p>
+                                <p>+999 90932 627</p>
+                                <p>support@yourdomain.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ########## All JS ########## -->
+    <!-- jQuery js -->
+   
+    <!-- script js -->
+    
+    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: none;">Scroll Top</a>
+
+
+
+</body>
